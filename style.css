@@ -1,0 +1,17 @@
+nav {
+  background-color: #1f1f2e;
+  padding: 1rem; /* Borda para dentro */
+  display: flex;
+  gap: 1rem; /* Distância de um para o outro*/
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #444;
+}
