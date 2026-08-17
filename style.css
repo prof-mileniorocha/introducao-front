@@ -1,8 +1,8 @@
 nav {
   background-color: #1f1f2e;
-  padding: 1rem; /* Borda para dentro */
+  padding: 1rem;
   display: flex;
-  gap: 1rem; /* Distância de um para o outro*/
+  gap: 1rem;
 }
 
 nav a {
@@ -13,5 +13,19 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #444;
+  background-color: #00ffcc;
+}
+
+.sobre {
+  background-color: #3e3c9c;
+  color: #000000;
+  padding: 2rem;
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
