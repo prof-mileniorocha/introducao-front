@@ -29,3 +29,22 @@ nav a:hover {
   object-fit: cover;
   border-radius: 50%;
 }
+
+.projetos {
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-projetos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: #f4f4f4;
+  color: #1f1f1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
