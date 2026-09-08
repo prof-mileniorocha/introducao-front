@@ -33,6 +33,11 @@ nav a:hover {
 .projetos {
   padding: 2rem;
   text-align: center;
+  background-image: 
+  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Dx9vyAsdcmYazy6bhBi78DoasH0hOCTYt1Pd-py95X6LzQhDh3URWFPH&s=10");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
 }
 
 .grid-projetos {
@@ -43,8 +48,47 @@ nav a:hover {
 }
 
 .card {
-  background-color: #f4f4f4;
+  background-color: #f4f4f492;
   color: #1f1f1e;
   padding: 1.5rem;
   border-radius: 8px;
+}
+
+.contato {
+  background-color: #f4f4f4;
+  color: #1f1f1e;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.contato input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contato button {
+  background-color: #1f1f2e;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1f1f2e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
